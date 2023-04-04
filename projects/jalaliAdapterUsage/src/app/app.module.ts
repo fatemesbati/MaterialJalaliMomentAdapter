@@ -8,13 +8,13 @@ import { MatLegacyFormFieldModule as MatFormFieldModule } from '@angular/materia
 import { MatLegacyInputModule as MatInputModule } from '@angular/material/legacy-input';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-// import { MaterialJalaliMomentAdapterModule } from 'material-jalali-moment-adapter';
+import { MaterialJalaliMomentAdapterModule } from 'material-jalali-moment-adapter';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatLegacyButtonModule as MatButtonModule } from '@angular/material/legacy-button';
-import { MaterialJalaliMomentAdapterModule } from 'projects/material-jalali-moment-adapter/src/lib/adaptor';
+// import { MaterialJalaliMomentAdapterModule } from 'projects/material-jalali-moment-adapter/src/lib/adaptor';
 @NgModule({
   declarations: [
     AppComponent,
